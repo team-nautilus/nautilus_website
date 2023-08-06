@@ -288,7 +288,7 @@ a{
     text-decoration: none;
 }
 span.bold:hover{
-    background-image: url('DSC_0001\ for\ school\ 1.jpg');
+    background-image: url('media/DSC_0001\ for\ school\ 1.jpg');
     background-repeat: no-repeat;
     position: relative;
     height: auto;
@@ -796,31 +796,31 @@ position: absolute;
     transition: 0.3s ease;
 }
 .col:nth-child(1){
-    background-image: url(dhruv-backdrop-black.JPG);
+    background-image: url(media/dhruv-backdrop-black.JPG);
     background-size: cover;
     border: 5px white;
     transition: all 0.3s ease;
 }
 .col:nth-child(2){
-    background-image: url(hema-backdrop-black.JPG);
+    background-image: url(media/hema-backdrop-black.JPG);
     background-size: cover;
     border: 5px white;
     transition: all 0.3s ease;
 }
 .col:nth-child(3){
-    background-image: url(Raksanbackdrop-black.JPG);
+    background-image: url(media/Raksanbackdrop-black.JPG);
     background-size: cover;
     border: 5px white;
     transition: all 0.3s ease;
 }
 .col:nth-child(4){
-    background-image: url(gaurav-backdrop-black.JPG);
+    background-image: url(media/gaurav-backdrop-black.JPG);
     background-size: cover;
     border: 5px white;
     transition: all 0.3s ease;
 }
 .col:nth-child(5){
-    background-image: url(rohan-backdrop-black.JPG);
+    background-image: url(media/rohan-backdrop-black.JPG);
     background-size: cover;
     border: 5px white;
     transition: all 0.3s ease;
@@ -844,34 +844,34 @@ position: absolute;
     align-self: center;
 }
 .col:nth-child(5):hover{
-    background-image: url(rohan-backdrop.JPG);
+    background-image: url(media/rohan-backdrop.JPG);
     background-size: cover;
     flex-grow: 1.7;
     color: rgb(255, 255, 255);
 }
 .col:nth-child(4):hover{
-    background-image: url(gaurav-backdrop.JPG);
+    background-image: url(media/gaurav-backdrop.JPG);
     background-size: cover;
 
     flex-grow: 1.7;
     color: rgb(255, 255, 255);
 }
 .col:nth-child(3):hover{
-    background-image: url(Raksanbackdrop.JPG);
+    background-image: url(media/Raksanbackdrop.JPG);
     background-size: cover;
 
     flex-grow: 1.7;
     color: rgb(255, 255, 255);
 }
 .col:nth-child(2):hover{
-    background-image: url(hema-backdrop.JPG);
+    background-image: url(media/hema-backdrop.JPG);
     background-size: cover;
 
     flex-grow: 1.7;
     color: rgb(255, 255, 255);
 }
 .col:nth-child(1):hover{
-    background-image: url(dhruv-backdrop.JPG);
+    background-image: url(media/dhruv-backdrop.JPG);
     background-size: cover;
 
     flex-grow: 1.7;
@@ -1377,7 +1377,7 @@ canvas {
   #ourjourney{
     height: 3000px;
     width: 100vw;
-    background-image: url(backgropund_2.png);
+    background-image: url(media/backgropund_2.png);
     background-size: 100vw 100%;
     background-repeat: no-repeat;
     display: flex;
