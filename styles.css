@@ -446,13 +446,7 @@ span.bold:hover{
 }
 #page4>.birthdaytxt>h2{
     font-size: 2vw;
-    background: -webkit-linear-gradient(left, #00FF94 , #1E6AFF);
-    background: -o-linear-gradient(right, #00FF94 , #1E6AFF);
-    background: -moz-linear-gradient(right, #00FF94 , #1E6AFF);
-    background: linear-gradient(to right, #00FF94 , #1E6AFF); 
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
+    color: black;
     font-family: casanov;
 }
 #page4>#birthday{
@@ -526,13 +520,7 @@ top: 90vh;
   }
   .experiencetxt>h2{
   font-size: 2vw;
-  background: -webkit-linear-gradient(left, #00FF94 , #1E6AFF);
-  background: -o-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: -moz-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: linear-gradient(to right, #00FF94 , #1E6AFF); 
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-family: casanov;
   }
   #experience{
@@ -586,13 +574,7 @@ top: 90vh;
   }
   .introtxt>h2{
   font-size: 2vw;
-  background: -webkit-linear-gradient(left, #00FF94 , #1E6AFF);
-  background: -o-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: -moz-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: linear-gradient(to right, #00FF94 , #1E6AFF); 
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-family: casanov;
 
   }
@@ -640,13 +622,7 @@ top: 90vh;
   }
   .hobbiestxt>h2{
   font-size: 2vw;
-  background: -webkit-linear-gradient(left, #00FF94 , #1E6AFF);
-  background: -o-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: -moz-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: linear-gradient(to right, #00FF94 , #1E6AFF); 
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-family: casanov;
   }
   #hobbies{
@@ -702,13 +678,7 @@ top: 90vh;
   }
   .mottotxt>h2{
   font-size: 2vw;
-  background: -webkit-linear-gradient(left, #00FF94 , #1E6AFF);
-  background: -o-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: -moz-linear-gradient(right, #00FF94 , #1E6AFF);
-  background: linear-gradient(to right, #00FF94 , #1E6AFF); 
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-family: casanov;
   }
   #motto{
