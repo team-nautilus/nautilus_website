@@ -1571,7 +1571,8 @@ background-color: #456bf7;
     height: auto;
     width: 350px;
     position: absolute;
-    left: 66vw;
+    text-align: left;
+    left: 64vw;
     top: 34%;
     letter-spacing: 5px;
   }
@@ -1587,6 +1588,7 @@ background-color: #456bf7;
     background: linear-gradient(90deg,#456bf7, #57ebd0);
     position: absolute;
     z-index: 10;
+    top: 100%;
   }
 
 
