@@ -289,7 +289,7 @@ gsap.fromTo(
   '#ourjourney>#imgcontainer',
   { y:0}, // #page>.container>.box Starts on the rights
   {
-    y:2700
+    y:2400
     , // Moves to the left
       ease: 'power1.inOut',
       scrollTrigger: {
