@@ -1602,7 +1602,7 @@ left: 17vw;
   }
   #ourjourney>#text_1>#txtline_1{
     height: 5px;
-    width: 350px;
+    width: 1vw;
     background: linear-gradient(90deg,#456bf7, #57ebd0);
     position: absolute;
     z-index: 10;
@@ -1723,6 +1723,30 @@ background-color: #00FF94;
   }
   #ourjourney>.dots_4>#dotstxt_8{
     top: 72%;
+  }
+  #ourjourney>#text_1>#txtline_1{
+    opacity: 0;
+  }
+  #ourjourney>#text_2>#txtline_2{
+    opacity: 0;
+  }
+  #ourjourney>#text_3>#txtline_3{
+    opacity: 0;
+  }
+  #ourjourney>#text_4>#txtline_4{
+    opacity: 0;
+  }
+  #ourjourney>.dots_3>#dotstxt_6{
+    top: 90%
+  }
+  #ourjourney>.dots_1>#dotstxt_1{
+    top: 100%
+  }
+  #ourjourney>.dots_2>#dotstxt_4{
+    top: 75%
+  }
+  #ourjourney>.dots_4>#dotstxt_8{
+    top: 100%
   }
 }
 
@@ -1910,7 +1934,38 @@ background-color: #00FF94;
     #contactus{
       opacity: 0;
     }
+    #ourjourney{
+      opacity: 0;
+    }
+    #page_1{
+      opacity: 0;
+    }
+    #oursponsors{
+      opacity: 0;
+    }
   } 
+
+#main>h1{
+  font-family: casanov;
+  font-size: 5vw;
+  position: fixed;
+  opacity: 0;
+  width: 80vw;
+  left: 10vw;
+  top: 45%;
+  text-align: center;
+  color: white;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  #main>h1{
+    opacity: 1;
+  }
+  .meetteamtxt{
+    opacity: 0;
+  }
+}
 
   #page4>#text_nautilus>#hover{
     color: rgba(255, 255, 255, 0.808);
@@ -2290,7 +2345,7 @@ transition: all 0.3s ease;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 1;
-  scale: 0.5;
+  scale: 1;
   transition: all 0.3s ease;
 }
 #contactus>#socials>.lnd{
@@ -2331,9 +2386,6 @@ transition: all 0.3s ease;
 }
 
 
-#socials>.fb{
-  width: 10px;
-}
 @media only screen and (max-width: 960px) {
   #contactus>#socials>.logo>.fa-brands{
     scale: 2;
@@ -2368,7 +2420,7 @@ transition: all 0.3s ease;
 }
 #contactus>.fa-envelope{
   position: absolute;
-top: 50%;
+top: 52%;
 left: 11%;
   scale: 2.5;
 }
@@ -2417,12 +2469,65 @@ left: 11%;
   }
 
   #contactus>#socials>.lnd{
-    filter: brightness(1000);
     filter: grayscale(1);
     transition: all 0.3s ease;
   }
   #contactus>#socials>.lnd:hover{
-    filter: brightness(1);
+    filter:grayscale(0);
     scale: 1.2;
     transition: all 0.5s ease;
     }
+    #contactus>#socials>.fb{
+      filter:grayscale(100);
+      transition: all 0.3s ease;
+    }
+    #contactus>#socials>.fb:hover{
+      filter:grayscale(0);
+      scale: 1.2;
+      transition: all 0.5s ease;
+      }
+      #contactus>#socials>.tt{
+        filter:grayscale(100);
+        transition: all 0.3s ease;
+      }
+      #contactus>#socials>.tt:hover{
+        filter:grayscale(0);
+        scale: 1.2;
+        transition: all 0.5s ease;
+        }
+        #contactus>#socials>.thrd{
+          filter:grayscale(100);
+          transition: all 0.3s ease;
+        }
+        #contactus>#socials>.thrd:hover{
+          filter:grayscale(0);
+          scale: 1.2;
+          transition: all 0.5s ease;
+          }
+          #contactus>#socials>.spt{
+            filter:grayscale(100);
+            transition: all 0.3s ease;
+          }
+          #contactus>#socials>.spt:hover{
+            filter:grayscale(0);
+            scale: 1.2;
+            transition: all 0.5s ease;
+            }
+            #contactus>#socials>.twt{
+              filter:grayscale(100);
+              transition: all 0.3s ease;
+            }
+            #contactus>#socials>.twt:hover{
+              filter:grayscale(0);
+              scale: 1.2;
+              transition: all 0.5s ease;
+              }
+              #contactus>#socials>.yt{
+                filter:grayscale(100);
+                transition: all 0.3s ease;
+              }
+              #contactus>#socials>.yt:hover{
+                filter:grayscale(0);
+                scale: 1.2;
+                transition: all 0.5s ease;
+                }
