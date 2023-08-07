@@ -71,22 +71,6 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 gsap.registerPlugin(ScrollTrigger)
 
-gsap.fromTo(
-  '#page>.container>.car',
-  { opacity:0, xPercent: 100 }, // #page>.container>.box Starts on the rights
-  {
-    opacity:1,
-    xPercent: 500, // Moves to the left
-      ease: 'power1.inOut',
-      scrollTrigger: {
-          trigger: '#page>.container>.car',
-          start: 'top center',
-          end: 'bottom top',
-          scrub: true,
-          
-      },
-  }
-)
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -305,7 +289,7 @@ gsap.fromTo(
   '#ourjourney>#imgcontainer',
   { y:0}, // #page>.container>.box Starts on the rights
   {
-    y:2400
+    y:2700
     , // Moves to the left
       ease: 'power1.inOut',
       scrollTrigger: {
