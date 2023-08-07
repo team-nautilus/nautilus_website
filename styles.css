@@ -13,7 +13,7 @@ body{
 }
 
 html,body{
-    height: 100%;
+    height: fit-content;
     width: 100%;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -97,6 +97,7 @@ html,body{
 
 .navbar__item {
   height: 80px;
+  padding: 10px;
 }
 
 .navbar__links {
@@ -258,12 +259,14 @@ html,body{
 #until__component{
     text-align: center;
     font-family: garet;
+    font-size: 2.5vw;
 }
 .until>.until__event{
     grid-column: span 4;
     text-align: center;
     font-family: casanov;
     padding-top: 70px;
+    font-size: 2vw;
 }
 span.bold{
     background: rgba(255, 255, 255, 0);
@@ -373,9 +376,8 @@ span.bold:hover{
     opacity: 1;
 }
 #page4>.team>img{
-    object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    padding-bottom: 5%;
 }
 #page4>#text_nautilus{
     position: absolute;
@@ -1922,16 +1924,16 @@ background-color: #00FF94;
     position: absolute;
     font-family: garet;
     -webkit-text-stroke-width: 2px;
-    top: 100%;
+    top: -25%;
     transform: translate(50%);
     font-size: 20px;
     animation: animate 1.5s infinite ;
   }
 
   @keyframes animate{
-    0%   {top: 17vw;}
-    50%  {top: 16.5vw;}
-    100% {top: 17vw;}
+    0%   {top: -25%;}
+    50%  {top: -20%}
+    100% {top: -25%;}
   }
 
 
@@ -1942,6 +1944,13 @@ background-color: #00FF94;
   position: relative;
   top: 0.5%;
  }
+
+ @media only screen and (max-width: 960px) {
+  .sponsors{
+    
+  }
+  }
+
  #oursponsors>.title>h1{
   font-family: casanov;
   color: white;
@@ -1966,10 +1975,13 @@ background-color: #00FF94;
   position: relative;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(5, 10vw);
+  grid-template-rows: repeat(6, 6.7vw);
   grid-gap: 30px;
   padding: 100px 200px;
+  overflow: hidden;
 }
+
+
 .gallery__item--1{
   grid-column-start: 1;
   grid-column-end: 3;
@@ -2083,6 +2095,24 @@ background-color: #00FF94;
   grid-row-start: 5;
   grid-row-end: 5;
 }
+.gallery__item--20{
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+.gallery__item--21{
+  grid-column-start:3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+.gallery__item--22{
+  grid-column-start:5;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
  .gallery__img {
   width: 80%;
   height: 80%;
@@ -2133,7 +2163,6 @@ top: 2%;
 #contactus{
   background-color: rgb(0, 0, 0);
   position: relative;
-  top: 1%;
   height: 50vw;
   color: white;
 }
@@ -2141,15 +2170,15 @@ top: 2%;
 #contactus>#contacttxt{
   position: relative;
   font-family: casanov;
-  font-size: 50px;
+  font-size: 2.5vw;
 height: 10vh;
-top: 5%;
+top: 30%;
 left: 5%;
 }
 
 #contactus>#socials{
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50vw;
   height: 50vh;
   width: 50vw;
@@ -2177,13 +2206,22 @@ outline: 2px solid #00FF94;
 }
 #contactus>#socials>.logo>.fa-brands{
   position: relative;
-  left: 45%;
-  top: 45%;
-  scale: 5;
+  top:3vw;
+  left: 3vw;
+  scale: 3;
+}
+@media only screen and (max-width: 960px) {
+  #contactus>#socials>.logo>.fa-brands{
+    scale: 2;
+  }
 }
 #contactus>#socials>.logo>.fa-brands.fa-threads{
   position: relative;
-  width: 13px;
+  width: 0.8vw;
+}
+#contactus>#socials>.logo>.fa-brands.fa-twitter{
+  position: relative;
+  width: 0.8vw;
 }
 #contactus>.line_contact{
   position: absolute;
@@ -2198,24 +2236,24 @@ outline: 2px solid #00FF94;
   position: absolute;
   color: white;
   font-family: casanov;
-  font-size: 45px;
+  font-size: 2.5vw;
   left: 54vw;
-  top: 25%;
+  top: 48%;
 }
 
 #contactus>.mailtxt{
   position: absolute;
   color: white;
   font-family: casanov;
-  font-size: 45px;
+  font-size: 2.5vw;
   left: 15%;
-  top: 25%;
+  top: 50%;
 }
 #contactus>.fa-envelope{
   position: absolute;
-top: 27%;
-left: 10%;
-  scale: 3;
+top: 50%;
+left: 11%;
+  scale: 2.5;
 }
 #contactus>#contacttxt:hover ~ .line_contact{
   width: 40vw;
@@ -2225,23 +2263,29 @@ left: 10%;
   position: absolute;
   color: white;
   font-family: garet;
-  top: 35%;
+  top: 57%;
   left: 10%;
-  font-size: 25px;
+  font-size: 1.5vw;
+}
+#contactus>.fa-location-dot{
+  position: absolute;
+top: 66%;
+left: 11%;
+  scale: 2.5;
 }
 #contactus>.loctxt{
   position: absolute;
   color: white;
   font-family: casanov;
-  font-size: 45px;
+  font-size: 2.5vw;
   left: 15%;
-  top: 50%;
+  top: 65%;
 }
 #contactus>.urloc{
   position: absolute;
   color: white;
   font-family: garet;
-  top: 60%;
+  top: 73%;
   left: 10%;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
