@@ -141,12 +141,12 @@ html,body{
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #000000e1;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 60vh;
+    height: 100vh;
     font-size: 1.6rem;
   }
 
@@ -446,7 +446,9 @@ span.bold:hover{
 }
 #page4>.birthdaytxt>h2{
     font-size: 2vw;
-    color: black;
+    background: -webkit-linear-gradient(#34ffb1, #2081ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: casanov;
 }
 #page4>#birthday{
@@ -504,7 +506,7 @@ top: 90vh;
   .experiencetxt{
   font-family: garet;
   position: absolute;
-  width: 1000px;
+  width: 60vw;
   height: 500px;
   z-index: 4;
   background:linear-gradient();
@@ -520,7 +522,9 @@ top: 90vh;
   }
   .experiencetxt>h2{
   font-size: 2vw;
-  color: black;
+  background: -webkit-linear-gradient(#34ffb1, #2081ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
   font-family: casanov;
   }
   #experience{
@@ -559,7 +563,7 @@ top: 90vh;
   .introtxt{
   font-family: garet;
   position: absolute;
-  width: 1000px;
+  width: 60vw;
   z-index: 4;
   background:linear-gradient();
   margin: 2px ;
@@ -574,7 +578,9 @@ top: 90vh;
   }
   .introtxt>h2{
   font-size: 2vw;
-  color: black;
+  background: -webkit-linear-gradient(#34ffb1, #2081ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
   font-family: casanov;
 
   }
@@ -622,7 +628,9 @@ top: 90vh;
   }
   .hobbiestxt>h2{
   font-size: 2vw;
-  color: black;
+  background: -webkit-linear-gradient(#34ffb1, #2081ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
   font-family: casanov;
   }
   #hobbies{
@@ -662,12 +670,11 @@ top: 90vh;
   .mottotxt{
     font-family: garet;
     position: absolute;
-    width: 700px;
+    width: 100vw;
     z-index: 4;
     background:linear-gradient();
     margin: 2px ;
     padding: 0;
-    left: 25%;
     top: 8%;
     padding: 5px 5px;
     color: rgb(253, 253, 253);
@@ -678,8 +685,10 @@ top: 90vh;
   }
   .mottotxt>h2{
   font-size: 2vw;
-  color: black;
   font-family: casanov;
+    background: -webkit-linear-gradient(#34ffb1, #2081ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   #motto{
     position: absolute;
@@ -696,7 +705,7 @@ top: 90vh;
 #motto:hover {
   scale: 1.5;
   background-color: rgb(255, 255, 255);
-
+  transition: all 5.0s ease;
   }
   #motto:hover ~ .mottotxt {
     top: 10%;
@@ -1687,7 +1696,7 @@ transform: scale(1);
 transition: 0.2s;
 background-color: #00FF94;
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1200px) {
   #ourjourney>.dots_3>#dotstxt_6{
     top: 74%;
   }
@@ -1710,7 +1719,7 @@ background-color: #00FF94;
     top: 90%
   }
   #ourjourney>.dots_1>#dotstxt_1{
-    top: 100%
+    top:85%
   }
   #ourjourney>.dots_2>#dotstxt_4{
     top: 75%
@@ -1915,6 +1924,55 @@ background-color: #00FF94;
     }
   } 
 
+  @media only screen and (max-width: 920px) {
+    #ourjourney>#line_1_jorn {
+      opacity: 0;
+    }
+    #ourjourney>#line_2_jorn {
+      opacity: 0;
+    }
+    #ourjourney>#line_mid_jorn {
+      opacity: 0;
+    }
+    #navbar__logo {
+      padding-left: 20%;
+      scale: 0.70;
+    }
+    #ourjourney>img{
+      opacity: 0;
+    }
+    #ourjourney{
+      background-color: #131313;
+    }
+    #ourjourney>#text>h1{
+      width: 50px;
+      left: 100%;
+    }
+    #page4{
+      opacity: 0;
+    }
+    .meetteam{
+      opacity: 0;
+    }
+    .meetteamtxt{
+      opacity: 0;
+    }
+    #page2{
+      opacity: 0;
+    }
+    #contactus{
+      opacity: 0;
+    }
+    #ourjourney{
+      opacity: 0;
+    }
+    #page_1{
+      opacity: 0;
+    }
+    #oursponsors{
+      opacity: 0;
+    }
+  }
 #main>h1{
   font-family: casanov;
   font-size: 5vw;
@@ -1929,6 +1987,15 @@ background-color: #00FF94;
 }
 
 @media only screen and (max-width: 600px) {
+  #main>h1{
+    opacity: 1;
+  }
+  .meetteamtxt{
+    opacity: 0;
+  }
+
+}
+@media only screen and (max-width: 920px) {
   #main>h1{
     opacity: 1;
   }
