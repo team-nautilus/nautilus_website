@@ -2103,7 +2103,7 @@ background-color: #00FF94;
 }
 .gallery__item--6{
   grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
 }
@@ -2134,7 +2134,7 @@ background-color: #00FF94;
 }
 .gallery__item--11{
   grid-column-start:3;
-  grid-column-end: 5;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
 }
@@ -2243,6 +2243,18 @@ background-color: #00FF94;
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 6;
+}
+.gallery__item--29{
+  grid-column-start:4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.gallery__item--30{
+  grid-column-start:4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
 
  .gallery__img {
